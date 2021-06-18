@@ -117,7 +117,10 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libtinyxml \
     libqdMetaData \
-    libqdMetaData.system
+    libqdMetaData.vendor \
+    libstagefright_enc_common \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
