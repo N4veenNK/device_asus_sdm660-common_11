@@ -401,6 +401,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Sqlite
+PRODUCT_PACKAGES += \
+    sqlite3
+
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
