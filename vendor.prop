@@ -133,6 +133,10 @@ ro.vendor.sensors.facing=false
 # Shutdown time
 sys.vendor.shutdown.waittime=500
 
+# Set system properties identifying the chipset
+ro.soc.manufacturer=QTI
+ro.soc.model=SDM660
+
 # UBWC
 vendor.video.disable.ubwc=1
 
