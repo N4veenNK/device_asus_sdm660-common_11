@@ -189,12 +189,6 @@ service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
      user root
      group system wakelock
 
-# FPS Info
-    chown system graphics /sys/devices/virtual/graphics/fb0/measured_fps
-    chmod 0666 /sys/devices/virtual/graphics/fb0/measured_fps
-    chown system graphics /sys/class/graphics/fb0/measured_fps
-    chmod 0666 /sys/class/graphics/fb0/measured_fps
-
 on boot
 # Smart Charging permissions
   chown system system /sys/class/power_supply/battery/charging_enabled
