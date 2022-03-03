@@ -28,9 +28,17 @@ vendor.display.disable_skip_validate=1
 persist.sys.sf.disable_blurs=1
 ro.surface_flinger.supports_background_blur=1
 ro.sf.blurs_are_expensive=1
+persist.sys.sf.disable_blurs=0
 
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
+
+# Gboard
+ro.com.google.ime.kb_pad_port_l=7
+ro.com.google.ime.kb_pad_port_r=7
+ro.com.google.ime.kb_pad_land_l=14
+ro.com.google.ime.kb_pad_land_r=14
+ro.com.google.ime.kb_pad_port_b=1
 
 # GPS
 persist.vendor.overlay.izat.optin=rro

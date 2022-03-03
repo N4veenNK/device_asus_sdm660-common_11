@@ -96,6 +96,9 @@ ro.com.google.clientidbase.ms=android-asus-tpin
 ro.com.google.rlzbrandcode=ASUP
 ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+
 # Surfaceflinger
 debug.sf.late.sf.duration=10500000
 debug.sf.late.app.duration=16600000
